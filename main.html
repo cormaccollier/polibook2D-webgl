@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Polibook</title>
+
+    <script id="vshader" type="x-shader/x-vertex">
+	attribute vec4 vPosition;
+	attribute vec4 vColor;
+	uniform float vPointSize;
+	uniform mat4 projMatrix;
+	varying vec4 fColor;
+
+	void main() {
+		gl_Position = projMatrix * vPosition;
+		gl_PointSize = vPointSize;
+		fColor = vColor;
+  	}
+	</script>
+
+    <script id="fshader" type="x-shader/x-fragment">
+    precision mediump float;
+	varying vec4 fColor;
+	void main()
+	{
+		gl_FragColor = fColor;
+  	}
+	</script>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/initShaders.js"></script>
+    <script src="lib/MV.js"></script>
+
+    <script src="script.js"></script>
+
+</head>
+
+<body style="text-align: center" onload="main()">
+
+<h1 id="title">File Mode</h1>
+
+<canvas style="border: black solid 1px;" id="webgl" width="400" height="400" onclick="drawMode(event)">
+    Please use a browser that supports the "canvas" tag.
+</canvas>
+
+<input style="margin: 0 auto; display: block;" type="file" id="file">
+
+</body>
+</html>
