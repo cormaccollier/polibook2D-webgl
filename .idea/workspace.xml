@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23926979-84f4-4bcc-ac3a-0f1d6b0288ec" name="Default Changelist" comment="" />
+    <list default="true" id="23926979-84f4-4bcc-ac3a-0f1d6b0288ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Polibook.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/birdhead.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/dino.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/dragon.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/house.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/knight.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/rex.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/scene.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/usa.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/vinci.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/MV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/initShaders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/webgl-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/" />
+    <ignored path=".DS_Store" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +101,9 @@
       <find>vPointSiz</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -92,6 +118,7 @@
     <option name="width" value="1280" />
     <option name="height" value="727" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -117,7 +144,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,16 +198,15 @@
       <workItem from="1550505658555" duration="7000" />
       <workItem from="1551409823580" duration="17000" />
       <workItem from="1551409933805" duration="145000" />
-      <workItem from="1554466103264" duration="408000" />
+      <workItem from="1554466103264" duration="575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29315000" />
+    <option name="totallyTimeSpent" value="29482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.16282764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
